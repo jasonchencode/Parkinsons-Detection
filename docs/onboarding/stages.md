@@ -11,7 +11,7 @@ We'll investigate what information is available, including:
 - Demographics
 - Number of subjects
 
-It's important that our dataset actually supports the questions we're trying to answer
+It's important that our dataset actually supports the questions we're trying to answer. Here are the current [datasets](./datasets.md) we'll be working with.
 
 
 ## Stage 2: Pose Estimation
