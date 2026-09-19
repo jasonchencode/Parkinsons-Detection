@@ -53,3 +53,7 @@ By the end of the project, we're aiming for:
 - Experiments evaluating model performance and uncertainty
 - An analysis of explainability and potential bias
 - A research paper documenting our findings
+
+
+## Previous research
+Before getting started, take a look at the research in [related_works.md](./related_works.md)
