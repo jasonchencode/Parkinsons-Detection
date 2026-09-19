@@ -29,4 +29,29 @@ Use the landmarks to measure movement characteristics such as:
 - Left/right differences
 
 
-## Stage 4: 
+## Stage 4: Model Training
+Train models to estimate motor symptom severity from the movement data.
+
+We'll start with simpler baseline models before experimenting with temporal deep learning approaches.
+
+
+## Stage 5: Uncertainty
+A model shouldn't just give us a prediction, but should also state how confident it is. We'll investigate different methods for estimating and evaluating this uncertainty.
+
+
+## Stage 6: Explainability & Fariness
+We'll look into:
+- What movement patterns the model uses
+- Whether performance changes across patient groups
+- Whether uncertainty changes across patient groups
+- How limitations in the dataset could affect the model
+
+
+## Stage 7: Ethics
+Towards the end, we'll connect our technical results to the clinical setting. Questions we'll explore include:
+- When should an AI system provide an assessment?
+- When should it say "I'm not sure"?
+- When should a clinician override the model?
+- What should responsible use of a system like this look like?
+
+
