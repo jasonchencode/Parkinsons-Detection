@@ -52,7 +52,7 @@ By the end of the project, we're aiming for:
 - An uncertainty estimation method
 - Experiments evaluating model performance and uncertainty
 - An analysis of explainability and potential bias
-- A framework to navigating ethical concerns
+- A framework to navigate ethical concerns
 - A research paper documenting our findings
 
 
