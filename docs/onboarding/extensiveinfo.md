@@ -55,6 +55,8 @@ By the end of the project, we're aiming for:
 - A framework to navigate ethical concerns
 - A research paper documenting our findings
 
+Refer to the phases by which we will complete our project: [stages.md](stages.md)
+
 
 ## Previous research
 Before getting started, take a look at the research in [related_works.md](./related_works.md)
