@@ -13,19 +13,22 @@ This gives us two sides to the project:
 - **Research/ethics**: Investigate what it actually means to use a system like this in a clinical setting, including uncertainty, bias, explainability, and when the system should defer to a clinician.
 
 
-
 ## Why finger tapping?
 
-Finger tapping is a standardized motor task that can reveal changes in movement associated with Parkinsonian symptoms.
+![finger image](../assets/Parkinson's_Disease_Detection.png)
 
-When someone repeatedly taps their fingers, we can measure things like:
-- How many taps they complete
-- How far their fingers move
-- How quickly they move
-- How consistent each tap is
-- Whether the movement gets smaller over time
-- Differences between the left and right hand
-These are things that can be measured from a video without requiring specialized sensors.
+Finger tapping is a simple and repeatable movement that can reveal differences in motor function.
+
+Things we can potentially measure include:
+
+- Tapping speed
+- Movement amplitude
+- Movement consistency
+- Changes over time
+- Differences between hands
+
+We can use these movement patterns as inputs to our model.
+
 
 ## Why are we doing this?
 Medical AI can produce impressive predictions, but a prediction by itself does not tell us whether the system should be trusted.
@@ -37,3 +40,16 @@ A model might perform well on the data it was trained on but behave differently 
 - A hand is partially obstructed
 - The video quality is lower
 - The person looks different from the training population
+
+Uncertainty is particularly important for our project. If a model is highly uncertain about a particular assessment, that could be a situation where the system should defer to a clinician rather than provide a confident-looking answer.
+
+
+## What is the final result?
+By the end of the project, we're aiming for:
+
+- A computer vision pipeline for analyzing finger-tapping videos
+- A model for motor symptom assessment
+- An uncertainty estimation method
+- Experiments evaluating model performance and uncertainty
+- An analysis of explainability and potential bias
+- A research paper documenting our findings
