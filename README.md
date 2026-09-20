@@ -1,6 +1,6 @@
 # Parkinsons Detection
 
-QMIND research project exploring computer vision for uncertainty-aware assessment of Parkinson’s motor symptoms from finger-tapping video.
+[QMIND](https://qmind.ca/) research project exploring computer vision for uncertainty-aware assessment of Parkinson’s motor symptoms from finger-tapping video.
 
 Video → Pose Estimation → Movement Features → Motor Severity → Uncertainty
 
