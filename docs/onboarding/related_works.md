@@ -16,7 +16,7 @@ Uses MediaPipe hand pose estimation + time-series features + machine learning to
 ## 3. Deep Learning of Parkinson's Movement
 **Paper:** [Deep learning of Parkinson’s movement from video, without human-defined measures](https://pubmed.ncbi.nlm.nih.gov/38991323/)
 
-Takes a different approach by feeding finger-tapping video directly into a 3D CNN, rather than manually defining movement features. Useful for thinking about the difference between feature-based and end-to-end approaches.
+Takes a different approach by feeding finger-tapping video directly into a 3D CNN (Convolutional Neural Network), rather than manually defining movement features. Useful for thinking about the difference between feature-based and end-to-end approaches.
 
 
 ## 4. Video-Based Quantification of Motor Characteristics
