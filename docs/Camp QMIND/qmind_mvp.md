@@ -134,6 +134,7 @@ By the end of Camp, we should aim to have:
 - [ ] "Can You Fool the AI?" interactive demo
 - [ ] Cleaner UI
 - [ ] AI Confidence Check
+- [ ] Live demonstration of demo; record feature
 
 
 
