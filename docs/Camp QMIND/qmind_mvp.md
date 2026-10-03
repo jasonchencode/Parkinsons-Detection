@@ -105,6 +105,7 @@ Our pitch will include:
 - The problem we're exploring
 - What the computer sees
 - How we turn movement into data
+- Ethical considerations (is reliable, fair, clinically meaningful, stored safely?)
 - **LIVE DEMO**
 - What we learned
 - Where the project goes next
@@ -132,6 +133,7 @@ By the end of Camp, we should aim to have:
 - [ ] More movement characteristics
 - [ ] "Can You Fool the AI?" interactive demo
 - [ ] Cleaner UI
+- [ ] AI Confidence Check
 
 
 
