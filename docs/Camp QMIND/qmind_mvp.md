@@ -112,7 +112,7 @@ Our pitch will include:
 
 The main demo should tell a simple story:
 
-**Here is the video → here is what the computer sees → here is the movement signal → here is what we can measure**
+**Here is the video → here is what the computer sees → here is the movement signal → here is what we can measure → here is what each measurement means**
 
 ---
 
