@@ -30,3 +30,109 @@ Now we need to get the computer to understand where the hand and fingers are. We
 - wrist
 
 The landmarks can be drawn on top of the video so the demo can see what the computer sees.
+
+
+## 3. Movement Measurements
+Once we have the landmarks, we can start measuring movement.
+
+Our main measurement will be the distance between the thumb and index fingertip over time.
+
+As someone taps, this distance changes and creates a signal we can plot:
+
+```text
+Distance
+   ^
+   |
+   |       /\       /\       /\
+   |      /  \     /  \     /  \
+   |_____/    \___/    \___/    \____
+   |
+   +---------------------------------> Time
+```
+
+From this, we can try to calculate:
+
+- Number of taps
+- Tapping frequency
+- Average amplitude
+- Amplitude variability
+- Pauses between taps
+
+If we have time, we can use peak detection to automatically identify individual taps.
+
+
+## 4. Interactive Demo
+Now let's turn this into something that actually feels like a product rather than just a notebook.
+
+Ideally, our demo will show:
+
+
+```text
+┌──────────────────────┬──────────────────────┐
+│   FINGER-TAPPING     │   FINGER DISTANCE    │
+│       VIDEO          │        GRAPH         │
+│                      │                      │
+│   ● hand landmarks   │    /\    /\    /\    │
+│                      │___/  \__/  \__/  \__ │
+├──────────────────────┴──────────────────────┤
+│ Taps: 42   Frequency: 4.8 Hz   Amplitude: X │
+└─────────────────────────────────────────────┘
+```
+
+**Bonus**: make the video and graph interact with each other. Clicking a point on the graph could jump the video to that moment.
+
+
+## 5. Design / UX
+This isn't just a technical project!
+
+Design members can work on:
+
+- The layout of the demo
+- Video + graph synchronization
+- How movement measurements are displayed
+- Explaining what each measurement means
+- Making the interface understandable to someone who knows nothing about AI
+
+The goal is to make the technical work **easy to understand**.
+
+
+## 6. Pitch Competition!
+We're gonna make a 🔥**FIRE**🔥 presentation
+
+Our pitch will include:
+
+- Team introduction
+- The problem we're exploring
+- What the computer sees
+- How we turn movement into data
+- **LIVE DEMO**
+- What we learned
+- Where the project goes next
+
+The main demo should tell a simple story:
+
+**Here is the video → here is what the computer sees → here is the movement signal → here is what we can measure**
+
+---
+
+### MVP Success Criteria
+By the end of Camp, we should aim to have:
+
+- [ ] Finger-tapping video processed
+- [ ] Hand landmarks displayed
+- [ ] Thumb-index distance calculated
+- [ ] Distance plotted over time
+- [ ] At least one movement metric calculated
+- [ ] Basic tap detection working
+- [ ] A simple demo we can present
+
+#### Stretch Goals
+- [ ] Video and graph synchronized
+- [ ] Multiple videos compared
+- [ ] More movement characteristics
+- [ ] "Can You Fool the AI?" interactive demo
+- [ ] Cleaner UI
+
+
+
+
