@@ -2,6 +2,25 @@
 Welcome guys! Today we're gonna build a little demo of our Parkinson's project to showcase that our idea is viable, computable, and actually pretty cool to see in action.
 > MVP stands for Minimum Viable Product btw. It's basically a simplified version of our project that shows essential features.
 
+## Intro to Parkinson's Disease
+By now, hopefully you know what Parkinson's is, but if you don't, here is a quick crash course:
+
+- progressive neurodegenerative disease in the dopamine-producing area of the brain
+- primarily affects motor movement (ie. tremors, bradykinesia/slowed movement, stiff muscles, poor posture)
+- causes: unknown (maybe genes? maybe toxin exposure?)
+- risk factor: old age (>50), genetics, male sex
+
+How is it diagnosed? 
+- bradykinesia
+- resting tremor
+- rigidity
+- postural instability
+
+## What is finger tapping?
+Tap the index finger and thumb together quickly and as widely as possible for at least 10 repetitions. 
+- A positive test is when the movement becomes slower or smaller over time. 
+- Fingers and toes are commonly affected.
+
 ## The Plan
 As y'all know, our project will use computer vision to analyze finger-tapping and eventually explore how these movements can be used to assess Parkinson's. For Camp QMIND, we don't have the time/resources to build a full, fleshed-out system. Instead, we're gonna make an MVP of the first part of our research:
 
@@ -135,6 +154,7 @@ By the end of Camp, we should aim to have:
 - [ ] Cleaner UI
 - [ ] AI Confidence Check
 - [ ] Live demonstration of demo; record feature
+- [ ] Adding additional tests: Hand supination, fist open close, toe tapping, rigidity testing, tremor testing
 
 
 
