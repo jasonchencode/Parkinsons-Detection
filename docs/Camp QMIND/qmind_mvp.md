@@ -1,4 +1,4 @@
-# Camp QMIND MVP Hackathon [repo](https://github.com/jasonchencode/QMIND-hackathon)
+# Camp QMIND MVP Hackathon: [repo](https://github.com/jasonchencode/QMIND-hackathon)
 Welcome guys! Today we're gonna build a little demo of our Parkinson's project to showcase that our idea is viable, computable, and actually pretty cool to see in action.
 > MVP stands for Minimum Viable Product btw. It's basically a simplified version of our project that shows essential features.
 
