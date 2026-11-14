@@ -40,15 +40,15 @@ This is likely the source of the demographic information we use for the vocal tr
 
 ### [Parkinson's Voice Dataset (Kaggle)](https://www.kaggle.com/datasets/ucimachinelearning/parkinsons-voice-dataset?select=Voice_Dataset)
 
-This is the larger vocal dataset for the project. Our working understanding is that it covers about 1,000 unique participants (roughly 500 with Parkinson's disease and 500 controls) performing sustained vowel phonations, and it will be the main dataset for comparing classical ML, a spectrogram-based CNN, and optional pretrained audio models.
+This is the larger vocal dataset for the project, and it will be the main dataset for comparing classical ML, a spectrogram-based CNN, and optional pretrained audio models. Initial checks (November 2026) confirm that it contains raw audio: 1,134 WAV recordings (68.2 MB), organized as 574 files labeled Healthy and 560 files labeled Parkinsons, released under CC0 on the UCI Machine Learning Repository's Kaggle account.
 
-**To confirm during the audit:**
-- The source and meaning of the diagnostic labels (clinically confirmed or self-reported)
-- The exact class counts and the number of recordings per participant
-- Recording duration, audio quality, file format, and collection procedures
-- Which demographic fields are available and how much is missing
+**To confirm during the audit (still open):**
+- The number of unique participants: the 1,134 files do not map one-to-one to participants until the file naming is verified
+- The source and meaning of the diagnostic labels (clinically confirmed or self-reported): the dataset currently ships with no description, no listed authors, and no DOI or provenance
+- Recording duration, audio quality, sampling rate, and collection procedures
+- Which demographic fields are available (none are published with the dataset so far)
 
-Participant counts and the relationship between the two vocal datasets are based on our research plan and have not yet been verified against the dataset documentation. We update this section once the audit is complete.
+A request on the dataset's discussion board asking for the original source, participant information, and recording protocol has remained unanswered as of November 2026. Until documentation appears, these counts come from the file listing rather than dataset documentation.
 
 
 [^1]: 0-to-4 rating scale used by doctors to measure the severity and progression of Parkinson's disease

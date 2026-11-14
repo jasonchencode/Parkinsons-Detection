@@ -41,7 +41,7 @@ The prediction target depends on the available labels: motor severity estimation
 
 ### Track Two: Vocal analysis
 
-The vocal dataset contains recordings from **1,000 unique participants** (about 500 with PD and 500 controls) performing sustained vowel phonations such as /a/. A separate or associated 100-participant subset contains demographic information such as age and gender.
+The vocal dataset contains about 1,100 sustained-vowel recordings (such as /a/), split roughly evenly between healthy controls and people with PD (574 vs. 560 files). The number of unique participants is not yet confirmed, since the dataset currently ships without documentation. A separate small dataset provides raw phone recordings of sustained /a/ from 81 participants (40 with PD and 41 controls) together with demographic information such as age and sex.
 
 The initial task is **binary Parkinson's disease classification**. We compare:
 
