@@ -23,9 +23,9 @@ It's important that our datasets actually support the questions we're trying to 
 
 **Vocal:**
 * Confirm the source and meaning of the diagnostic labels (clinically confirmed or self-reported)
-* Confirm the number of recordings per participant and the exact class counts (about 1,000 participants, roughly 500 PD and 500 controls)
+* Confirm the number of recordings per participant and the exact class counts (about 1,100 recordings: 574 healthy and 560 PD; the number of unique participants is unconfirmed)
 * Check recording duration, audio quality, format, and collection procedures
-* Check whether the 100-person demographic subset overlaps with the 1,000-participant dataset, and which demographic fields are available
+* Check whether the 81-participant phone-recording subset overlaps with the larger vocal dataset, and which demographic fields are available
 
 **Splitting:** All recordings from the same participant stay in the same training, validation, or test split. We will not treat a subset as an independent test set if it overlaps with the training data.
 
