@@ -50,5 +50,36 @@ This is the larger vocal dataset for the project, and it will be the main datase
 
 A request on the dataset's discussion board asking for the original source, participant information, and recording protocol has remained unanswered as of November 2026. Until documentation appears, these counts come from the file listing rather than dataset documentation.
 
+### [Parkinson Speech Dataset with Multiple Types of Sound Recordings (UCI)](https://archive.ics.uci.edu/dataset/301/parkinson%2Bspeech%2Bdataset%2Bwith%2Bmultiple%2Btypes%2Bof%2BAudio%2Brecordings?)
+**Folder**: Parkinson_Multiple_Sound_Recording
+
+**Format**: TXT files containing extracted voice features
+
+**Participants**: 40 (20 Parkinson's, 20 healthy), with 26 recordings/tasks per participant.
+
+Useful for exploring acoustic features and training classical ML models.
+
+### [Parkinsons Telemonitoring (UCI)](https://archive.ics.uci.edu/dataset/189/parkinsons+telemonitoring)
+**Format**: Pre-extracted voice features
+
+**Participants**: 42 people with early-stage Parkinson's, with repeated recordings.
+
+Contains UPDRS scores, making it useful for exploring severity prediction rather than PD-versus-healthy classification.
+
+### [Parkinson's Disease Data Set (Kaggle)](https://www.kaggle.com/datasets/vikasukani/parkinsons-disease-data-set)
+**Format**: Pre-extracted voice features
+
+**Participants**: 31 (23 Parkinson's), with 195 total voice observations.
+
+Useful for testing an initial classical ML classification model.
+
+### [Audios vowel A PD (Figshare)](https://figshare.com/articles/dataset/Audios_vowel_A_PD/21453867)
+**Folder**: 21453867
+
+**Format**: WAV recordings
+
+**Participants**: 126 (55 Parkinson's), with some demographic information.
+
+Additional raw vowel recordings for feature extraction and classification experiments.
 
 [^1]: 0-to-4 rating scale used by doctors to measure the severity and progression of Parkinson's disease
