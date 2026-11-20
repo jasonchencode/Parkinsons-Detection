@@ -82,4 +82,9 @@ Useful for testing an initial classical ML classification model.
 
 Additional raw vowel recordings for feature extraction and classification experiments.
 
+### [Parkinson's Disease Classification (UCI)](https://archive.ics.uci.edu/dataset/470/parkinson+s+disease+classification)
+**Format**: Pre-extracted acoustic features
+
+**Participants**: 252 (188 Parkinson's, 64 healthy)
+
 [^1]: 0-to-4 rating scale used by doctors to measure the severity and progression of Parkinson's disease
